@@ -1,0 +1,27 @@
+#grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    color: blue;
+}
+#item6{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrq26lWH3OxlaGZyLN7FzTTSFRIbVo1EBbYA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+}
+#item1,#item2,#item3,#item4,#item5,#item7,#item8,#item9,#item10,#item11,#item12,#item13{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCUV0IZLbq9krBFWvhEtvWGlDwBAB9L9wvqQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}

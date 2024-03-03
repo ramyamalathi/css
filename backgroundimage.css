@@ -1,0 +1,22 @@
+#maindiv{
+    /* border: 1px solid black; */
+    border: 1px dashed black;
+    height: 100vh;
+    /* background-size:500px; */
+    padding:100px;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/A_curious_kitten_%28Pixabay%29.jpg/1024px-A_curious_kitten_%28Pixabay%29.jpg");
+    /* background-repeat: round; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    /* background-size: 150px; */
+    /* background-repeat: no-repeat; */
+    /* background-position: right center; */
+    /* background-attachment: fixed; */
+ background-attachment: scroll;
+ /* background-clip: padding-box; */
+ background-clip: content-box;
+
+}

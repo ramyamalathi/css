@@ -1,0 +1,49 @@
+/* p::first-letter{
+    color:brown;
+    font-size: xx-large;
+}
+p::first-line{
+    color:blue;
+} */
+/* *::selection{
+    background-color: yellowgreen;
+    color:red;
+} */
+
+/* h1::before{
+    content:"*****";
+    color:red;
+}
+h1::after{
+    content:"*****";
+    color:red;
+} */
+/* h1::before{
+    content:"-------";
+    color:red;
+}
+h1::after{
+    content:"-------";
+    color:red;
+} */
+/* html{
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    border: 1px solid black;
+    position: relative;
+}
+h1::before{
+    content:" ";
+    border: 1px solid grey;
+    position:absolute;
+    left:140px;
+    top:18px;
+    width:300px;
+    border-bottom-style: none; 
+} */
+ul>li::marker{
+    color:red;
+    font-size: xx-large;
+}

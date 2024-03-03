@@ -1,0 +1,24 @@
+/* *{
+    background-color: aqua;
+    border: 1px solid black;
+}
+#item4,#art1,.span1{
+    background-color: brown;
+} */
+/* p{
+    background-color: red
+    !important;
+} */
+/* #item1{
+    background-color:aqua;
+} */
+/* *{
+    background-color: aquamarine
+    !important;
+
+    border: 1px solid black;
+}*/
+.child{
+    background-color:palevioletred;
+    /* !important; */
+} 

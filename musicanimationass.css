@@ -1,0 +1,149 @@
+#p
+{
+    margin-left:600px;
+    display: inline-block;
+   
+
+}
+.bar
+{
+    /* border:1px solid black; */
+    background-color: orange;
+    height: 300px;
+    width: 50px;
+    margin-top: 200px;
+    margin-left:10px;
+    display: inline-block;
+}
+
+#p1{
+    text-align:center;
+    position: fixed;
+    
+}
+#bar1
+{
+    animation-name:bar1;
+    animation-duration:1s ;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate-reverse;
+    /* position:fixed; */
+}
+@keyframes bar1 {
+    from{
+        height:10px;
+    }
+    to{
+        height:300px;
+    }
+}
+#bar2
+{
+    animation-name:bar2;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar2 {
+    from{
+        height:100px;
+    }
+    to{
+        height:300px;
+    }
+}
+#bar3
+{
+    animation-name:bar3;
+    animation-duration: 1s;
+    animation-delay:1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar3{
+    from{
+        height:150px;
+    }
+    to{
+        height:50px;
+    }
+}
+#bar4
+{
+    animation-name:bar4;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar4{
+    from{
+        height:100px;
+    }
+    to{
+        height:250px;
+    }
+}
+#bar5
+{
+    animation-name:bar5;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar5{
+    from{
+        height:0px;
+    }
+    to{
+        height:280px;
+    }
+}
+#bar6
+{
+    animation-name:bar6;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar6{
+    from{
+        height:200px;
+    }
+    to{
+        height:100px;
+    }
+}
+#bar7
+{
+    animation-name:bar7;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar7{
+    from{
+        height:250px;
+    }
+    to{
+        height:300px;
+    }
+}
+#bar8
+{
+    animation-name:bar8;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes bar8{
+    from{
+        height:0px;
+    }
+    to{
+        height:300px;
+    }
+}
+

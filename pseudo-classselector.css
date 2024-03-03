@@ -1,0 +1,62 @@
+/* a:link{
+    color: yellow;
+} */
+/* a:visited{
+    color:bisque;
+} */
+/* a:active{
+    color: yellow;
+} */
+/* a:hover{
+    font-size: xx-large;
+} */
+/* p{
+    border: 1px solid black;
+    display:inline;
+}
+span{
+    border: 1px solid black;
+    display:block;
+} */
+/* p{
+    border: 1px solid black;
+    display: none;
+}
+ button:hover+p{
+    border: 1px solid black;
+    display:block;
+} */ 
+/* div{
+    border: 1px solid black;
+    height:100vh;
+}
+h1{
+    display:none;
+}
+button:hover + #container{
+    background-color: red;
+
+}
+button:hover + #container >h1{
+    display:block;
+} */
+img{
+    border: 1px solid black;
+    height:250px;
+    width:250px;
+    opacity:0.1;
+    text-align:center;
+    
+}
+ #container{
+    text-align:center;
+} 
+img:hover{
+   opacity:1;
+}
+
+
+
+
+
+

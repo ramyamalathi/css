@@ -1,0 +1,33 @@
+image{
+    height:250px;
+    width:150px;
+}
+/* img[alt]{
+    border:5px solid red;
+} */
+/* img[alt="rose"]{
+    border:5px solid yellow;
+} */
+/* img[alt^="bud"]{
+    border:5px solid violet;
+
+} */
+/* img[alt$="button"]{
+    border:5px solid aqua;
+} */
+/* img[alt|="bud"]{
+    border:5px solid cornflowerblue;
+} */
+
+/* img[alt~="bud"]{
+    border:5px solid red;
+} */
+/* img[alt*="rose"]{
+    border:5px solid blue;
+} */
+img[alt*="r"]{
+    border:5px solid blue;
+}
+
+
+

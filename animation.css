@@ -1,0 +1,77 @@
+  /* p{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    animation-name: paragraph;
+    animation-duration: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-timing-function: linear;
+    /* animation-delay: 5s; */
+    /* animation-direction: alternate; */
+    /* animation-direction:alternate-reverse;
+}   */ 
+/* @keyframes paragraph{
+    from
+    {
+        background-color: yellowgreen;
+    }
+    to{
+        background-color: aqua;
+    }
+} */
+/* @keyframes paragraph{
+    0%
+    {
+        background-color: yellowgreen;
+        left:0px;
+        top:0px;
+    }
+    25%{
+        background-color: aqua;
+        left:250px;
+        top:0px;
+    }
+    50%
+    {
+        background-color: blue;
+        left:250px;
+        top:250px;
+    }
+    75%
+    {
+        background-color: brown;
+        left:0px;
+        top:250px;
+    }
+    100%
+    {
+        background-color: aquamarine;
+        left:0px;
+        top:0px;
+
+    }
+} */
+#btn1:hover+#mydiv>#para1
+{
+  animation-name: size;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  /* animation-fill-mode: both; */
+}
+#btn1:hover+#mydiv>#para2
+{
+  animation-name: size;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  /* animation-fill-mode: both; */
+}
+@keyframes size {
+    from{
+        font-size: 16px;
+    }
+    to{
+        font-size: 45px;
+    }
+}

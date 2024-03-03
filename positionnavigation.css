@@ -1,0 +1,39 @@
+
+#parentelement{
+     border: 1px solid black;
+    background-color: aqua;
+}
+.p1
+{
+    border: 1px solid black;
+    background-color: aqua;
+    display: inline-block;
+    width: 310px;
+    padding: 30px;
+    text-align: center;
+ }
+ #home-content,#gallery-content
+{
+    border:  1px solid black;
+    height: 100vh;
+}
+#register
+{
+    position:relative;
+}
+
+#register-popup
+{
+    border: 1px solid black;
+    background-color: aquamarine;
+    width: 310px;
+    padding: 30px;
+    text-align: center;
+    position:absolute;
+    right:0px;
+    display: none;
+}
+#anchor1:hover+#register-popup
+{
+    display:block;
+}

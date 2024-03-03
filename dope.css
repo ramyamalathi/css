@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+span{
+    margin-left:250px;
+    padding: 9.6px 19.2px;
+        
+}
+#p{
+    border: 1px solid black;
+    height: 500px;
+    width:1000px;
+   
+background-image:url("https://html5up.net/uploads/demos/dopetrope/images/pic01.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-size:contain;
+
+
+}

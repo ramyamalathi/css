@@ -1,0 +1,17 @@
+ table{
+    border: 1px solid black;
+     border-collapse: collapse;
+    width:200px;
+    text-align: center; 
+
+} 
+.para{
+
+
+border: 1px solid black;
+} 
+thead,th{
+    background-color: blueviolet;
+    width:200px;
+    text-align: center;
+}

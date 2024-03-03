@@ -1,0 +1,132 @@
+#face{
+    border: 1px solid black;
+    height: 550px;
+    width: 550px;
+    position: absolute;
+    left: 20px;
+    border-radius: 70% ;
+    background-color: yellow;
+}
+#lefteye{
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    border-radius: 90%;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: white;
+}
+#righteye{
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    border-radius: 90%;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    background-color: white;
+}
+#leftshadow{
+    border: 1px solid black;
+    height: 80px;
+    width: 120px;
+    border-radius: 90%;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background-color:bisque;
+}
+#rightshadow{
+    border: 1px solid black;
+    height: 80px;
+    width: 120px;
+    border-radius: 90%;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    background-color:bisque;
+}
+#lefteyeball{
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 90%;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    background-color: black;
+    animation-name: eye ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#righteyeball{
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    border-radius: 90%;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    background-color: black;
+    animation-name: eye ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#mouth img{
+     height: 20px;
+    width: 20px;
+    position:absolute;
+    top: 300px;
+    left: 130px;
+    animation-name: mouth;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes eye {
+     0%{
+        top: 20px;
+        left: 0px;
+    } 
+     25%{
+        top: 45px;
+        left: 35px;
+
+    }
+
+    50%{
+        top: 20px;
+        left: 70px;
+    }
+    75%{
+        top: 10px;
+        left: 35px;
+    }
+    100%{
+        top: 20px;
+        left: 0px;
+    }   
+}
+@keyframes mouth {
+    0%{
+        height: 250px;
+        width: 350px;
+    }
+    25%{
+        height: 300px;
+        width: 350px;
+
+    }
+    50%{
+       height: 250px;
+       width: 350px;
+    }
+    100%{
+        height: 250px;
+        width: 350px;
+    }
+}

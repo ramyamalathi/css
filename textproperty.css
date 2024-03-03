@@ -1,0 +1,18 @@
+p{
+    color:blueviolet;
+    /* text-align: left; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-shadow: 1px 1px blue; */
+    /* text-indent: 100px; */
+    /* word-spacing: 25px; */
+    /* letter-spacing: 10px; */
+    /* line-height: 25px; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+}
+/* a{
+    text-decoration: none;
+} */

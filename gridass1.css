@@ -1,0 +1,24 @@
+#grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    font-size: xx-large;
+}
+#item{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+#item1,#item3,#item5,#item7,#item9,#item11{
+    background-color: rgb(250, 250, 82);
+}
+#item2,#item4,#item6,#item8,#item10,#item12{
+    background-color:blue;
+}
+
+

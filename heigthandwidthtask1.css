@@ -1,0 +1,19 @@
+
+div{
+    border: ipx solid black;
+    border-top-width: 5vh;
+    background-color: aqua;
+    height: 200px;
+}
+section{
+    align-items: center;
+}
+
+.para
+{
+border: 1px solid black;
+display: inline-block;
+width: 600px;
+color: red;
+background-color: yellow;
+}

@@ -1,0 +1,18 @@
+/* input:enabled{
+    background-color: yellow;
+} */
+/* input:disabled{
+    background-color: aqua;
+} */
+/* input:focus{
+    background-color: rgb(76, 210, 139);
+} */
+/* input:read-only{
+    background-color: blueviolet;
+} */
+/* input:read-write{
+    background-color: orange;
+} */
+input:required{
+    background-color: aquamarine;
+}

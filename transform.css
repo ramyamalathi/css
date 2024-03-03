@@ -1,0 +1,42 @@
+p
+{
+    border: 1px solid black;
+    height: 200px;
+    width:200px;
+    background-color: yellow;
+    transition:3s;
+    margin-left: 200px;
+    
+}
+p:hover{
+    transform: rotate(360deg);
+    /* transform: skew(25deg,25deg); */
+    /* transform: skewX(25deg); */
+    /* transform: skewy(25deg); */
+    /* transform: translate(250px,250px); */
+    /* transform: translatex(250px); */
+   /* transform: translatey(250px); */
+   /* transform: scale(1,1); default value of scale so no chage */
+     /* transform: scale(1.5,1.5); */
+     /* transform: scaleX(1.5); */
+     /* transform: scaley(1.5); */
+}
+/* button:hover{
+    transform: scale(1.5,1.5);
+} */
+
+.loading
+{
+    border: 50px solid greenyellow;
+    border-right-color: blue;
+    border-radius: 50%;
+    transition: 1s;
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
+    margin-top:100px;
+    
+}
+.loading:hover{
+    transform: rotate(360deg);
+}
